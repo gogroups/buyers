@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:background="@color/white_color"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <ImageView
+        android:layout_centerHorizontal="true"
+        android:layout_width="100dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="80dp"
+        android:scaleType="centerInside"
+        android:src="@drawable/icon"/>
+
+
+    <Button
+        android:id="@+id/option_login_screen_seller_login_button"
+        android:layout_centerInParent="true"
+        android:text="@string/option_login_screen_seller"
+        android:textSize="@dimen/text_eighteen"
+        android:gravity="center"
+        android:background="@drawable/options_login_seller_button_shape"
+        android:textColor="@color/grey_logo"
+        android:layout_width="200dp"
+        android:layout_height="60dp" />
+
+    <Button
+        android:id="@+id/option_login_screen_user_login_button"
+        android:layout_below="@+id/option_login_screen_seller_login_button"
+        android:layout_marginTop="50dp"
+        android:textSize="@dimen/text_eighteen"
+        android:gravity="center"
+        android:background="@drawable/options_login__user_button_shape"
+        android:layout_centerHorizontal="true"
+        android:text="@string/option_login_screen_user"
+        android:textColor="@color/white_color"
+        android:layout_width="200dp"
+        android:layout_height="60dp" />
+
+
+</RelativeLayout>

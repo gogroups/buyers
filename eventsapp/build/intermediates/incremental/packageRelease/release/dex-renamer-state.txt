@@ -1,0 +1,4 @@
+#Mon May 27 22:31:28 IST 2019
+base.0=C\:\\Users\\midixi\\Bitbucket\\repos\\gogroups11jan\\Mobile Code\\eventsapp\\build\\intermediates\\transforms\\dex\\release\\0
+path.0=classes.dex
+renamed.0=classes.dex

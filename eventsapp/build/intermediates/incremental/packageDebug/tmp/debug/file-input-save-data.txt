@@ -1,0 +1,7 @@
+#Internal package file, do not edit.
+#Wed Aug 21 00:49:40 IST 2019
+0.baseType=DIRECTORY
+0.base=C\:\\Users\\midixi\\source\\repos\\Buyers\\eventsapp\\build\\intermediates\\transforms\\dexMerger\\debug\\0
+0.path=classes.dex
+0.set=DEX
+count=1

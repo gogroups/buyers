@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:focusableInTouchMode="true"
+    android:background="@color/white_color"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <RelativeLayout
+        android:background="@color/orange_color"
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+
+        <Button
+            android:id="@+id/vendor_home_filter_left_arrow"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_centerVertical="true"
+            android:background="@null"
+            android:layout_width="40dp"
+            android:layout_height="40dp" />
+
+        <TextView
+            android:text="@string/title_no_of_viewed"
+            android:layout_toRightOf="@+id/vendor_home_filter_left_arrow"
+            android:layout_toEndOf="@+id/vendor_home_filter_left_arrow"
+            android:textColor="@color/pure_white_color"
+            android:layout_centerVertical="true"
+            android:textSize="@dimen/text_eighteen"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </RelativeLayout>
+    <ListView
+        android:id="@+id/viewedListVew"
+        android:divider="@color/blur_black_color"
+        android:dividerHeight="1.0sp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </ListView>
+
+</LinearLayout>

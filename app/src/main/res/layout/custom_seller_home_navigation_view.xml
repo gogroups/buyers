@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:paddingStart="10dp"
+        android:paddingLeft="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="60dp">
+
+
+        <TextView
+            android:id="@+id/navigation_seller_home_icon_items"
+            android:layout_gravity="bottom"
+            android:scaleType="fitXY"
+            android:layout_marginBottom="3dp"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:gravity="center" />
+
+        <TextView
+            android:id="@+id/seller_home_activity_navigation_menus"
+            android:layout_marginLeft="5dp"
+            android:layout_marginStart="5dp"
+            android:background="@null"
+            android:minLines="1"
+            android:maxLines="1"
+            android:layout_marginBottom="5dp"
+            android:text="anesfgJNGJNjngjgoJROHrhr"
+            android:layout_gravity="bottom"
+            android:textSize="@dimen/text_twelve"
+            android:textColorHint="@color/black_color"
+            android:textColor="@color/black_color"
+            android:enabled="false"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/minor_blur_blue"/>
+
+</LinearLayout>

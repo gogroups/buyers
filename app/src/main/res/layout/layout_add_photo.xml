@@ -1,0 +1,20 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:id="@+id/layout_add"
+    android:padding="2dp"
+    android:layout_marginTop="5dp"
+    android:background="@drawable/bg_white_round_outline_gray"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:id="@+id/tv_addImg"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_centerInParent="true"
+        android:gravity="center"
+        android:text="+ ADD"
+        android:textColor="@color/red_color"
+        android:textSize="@dimen/text_forteen" />
+</RelativeLayout>

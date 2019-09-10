@@ -1,0 +1,474 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:focusableInTouchMode="true"
+    android:background="@color/white_color"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <RelativeLayout
+        android:background="@color/orange_color"
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+
+        <Button
+            android:id="@+id/btnBack"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_centerVertical="true"
+            android:background="@null"
+            android:layout_width="40dp"
+            android:layout_height="40dp" />
+
+        <TextView
+            android:id="@+id/tvTitle"
+            android:text="@string/createInterest"
+            android:layout_toRightOf="@+id/btnBack"
+            android:textColor="@color/pure_white_color"
+            android:layout_centerVertical="true"
+            android:textSize="@dimen/text_eighteen"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+
+    </RelativeLayout>
+
+
+    <ScrollView
+        android:fillViewport="true"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:orientation="vertical"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/imgProfile"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:layout_marginTop="20dp"
+                android:src="@drawable/place_holder"/>
+            <TextView
+                android:id="@+id/upload_profile"
+                android:padding="1dp"
+                android:scaleType="fitXY"
+                android:gravity="center"
+                android:layout_marginTop="10dp"
+                android:text="@string/upload_pic"
+                android:layout_gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="vertical"
+                android:layout_marginLeft="30dp"
+                android:paddingBottom="20dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginTop="20dp"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:id="@+id/linear_layout_name"
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <EditText
+                        android:id="@+id/etGroupName"
+                        android:hint="@string/lookingFor"
+                        android:minLines="1"
+                        android:maxLines="1"
+                        android:gravity="center_vertical"
+                        android:maxLength="100"
+                        android:inputType="text"
+                        android:textSize="@dimen/text_forteen"
+                        android:layout_marginLeft="4dp"
+                        android:layout_marginStart="4dp"
+                        android:background="@null"
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp" />
+
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="@color/blur_black_color"/>
+                <TextView
+                    android:layout_marginLeft="5dp"
+                    android:textSize="11sp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/gray_variant"
+                    android:text="@string/lookingForGuideLine" />
+
+                <com.gogroup.app.gogroupapp.CustomViews.CustomSpinner
+                    android:id="@+id/spinner1"
+                    android:layout_marginLeft="-7dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:focusableInTouchMode="false"
+                    android:layout_marginTop="10dp"
+                    android:gravity="center_vertical" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="@color/blur_black_color" />
+
+                <LinearLayout
+                    android:id="@+id/layoutSpinner2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <com.gogroup.app.gogroupapp.CustomViews.CustomSpinner
+                        android:id="@+id/spinner2"
+                        android:layout_marginLeft="-7dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:layout_marginTop="10dp"
+                        android:gravity="center_vertical" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:background="@color/blur_black_color" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/layoutSpinner3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <com.gogroup.app.gogroupapp.CustomViews.CustomSpinner
+                        android:id="@+id/spinner3"
+                        android:layout_marginLeft="-7dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:layout_marginTop="10dp"
+                        android:gravity="center_vertical" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:background="@color/blur_black_color" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/layoutSpinner4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <com.gogroup.app.gogroupapp.CustomViews.CustomSpinner
+                        android:id="@+id/spinner4"
+                        android:layout_marginLeft="-7dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:layout_marginTop="10dp"
+                        android:gravity="center_vertical" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:background="@color/blur_black_color" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/layoutSpinner5"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <com.gogroup.app.gogroupapp.CustomViews.CustomSpinner
+                        android:id="@+id/spinner5"
+                        android:layout_marginLeft="-7dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:layout_marginTop="10dp"
+                        android:gravity="center_vertical" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:background="@color/blur_black_color" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/layoutSpinner6"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <com.gogroup.app.gogroupapp.CustomViews.CustomSpinner
+                        android:layout_width="match_parent"
+                        android:id="@+id/spinner6"
+                        android:layout_marginLeft="-7dp"
+                        android:layout_height="40dp"
+                        android:layout_marginTop="10dp"
+                        android:gravity="center_vertical" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:background="@color/blur_black_color" />
+                </LinearLayout>
+
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="@color/blur_black_color"/>
+
+                <LinearLayout
+                    android:id="@+id/linear_layout_upto_cost_range"
+                    android:orientation="horizontal"
+                    android:layout_marginTop="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <AutoCompleteTextView
+                        android:id="@+id/etCostRange"
+                        android:hint="@string/upto_cost_range"
+                        android:minLines="1"
+                        android:maxLines="1"
+                        android:gravity="center_vertical"
+                        android:inputType="number"
+                        android:textSize="@dimen/text_forteen"
+                        android:layout_marginLeft="4dp"
+                        android:layout_marginStart="4dp"
+                        android:background="@null"
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp" />
+
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="@color/blur_black_color"/>
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_marginTop="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <AutoCompleteTextView
+                        android:id="@+id/etLocation"
+                        android:hint="@string/location_title"
+                        android:minLines="1"
+                        android:maxLines="1"
+                        android:gravity="center_vertical"
+                        android:inputType="text"
+                        android:textSize="@dimen/text_forteen"
+                        android:dropDownHeight="100dp"
+                        android:layout_marginLeft="4dp"
+                        android:layout_marginStart="4dp"
+                        android:background="@null"
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp" />
+
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="@color/blur_black_color"/>
+                <TextView
+                    android:layout_marginLeft="5dp"
+                    android:textSize="11sp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/gray_variant"
+                    android:text="@string/locationGuideLine" />
+                <!--<LinearLayout-->
+                    <!--android:id="@+id/linear_layout_no_of_members"-->
+                    <!--android:orientation="horizontal"-->
+                    <!--android:layout_marginTop="10dp"-->
+                    <!--android:layout_width="match_parent"-->
+                    <!--android:layout_height="wrap_content">-->
+
+                    <!--<EditText-->
+                        <!--android:id="@+id/etNumOfMember"-->
+                        <!--android:hint="@string/no_of_members"-->
+                        <!--android:minLines="1"-->
+                        <!--android:maxLines="1"-->
+                        <!--android:gravity="center_vertical"-->
+                        <!--android:inputType="number"-->
+                        <!--android:textSize="@dimen/text_forteen"-->
+                        <!--android:layout_marginLeft="4dp"-->
+                        <!--android:layout_marginStart="4dp"-->
+                        <!--android:background="@null"-->
+                        <!--android:layout_width="match_parent"-->
+                        <!--android:layout_height="40dp" />-->
+
+                <!--</LinearLayout>-->
+
+                <!--<TextView-->
+                    <!--android:layout_width="match_parent"-->
+                    <!--android:layout_height="1dp"-->
+                    <!--android:background="@color/blur_black_color"/>-->
+                <!--<TextView-->
+                    <!--android:layout_marginLeft="5dp"-->
+                    <!--android:textSize="11sp"-->
+                    <!--android:layout_width="match_parent"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:textColor="@color/gray_variant"-->
+                    <!--android:text="@string/numberOfMemberGuidingMsg" />-->
+
+
+                <!--<RelativeLayout-->
+                    <!--android:layout_marginTop="10dp"-->
+                    <!--android:layout_width="match_parent"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:orientation="horizontal">-->
+
+                    <!--<EditText-->
+                        <!--android:id="@+id/etStarts"-->
+                        <!--android:layout_marginLeft="3dp"-->
+                        <!--android:layout_width="wrap_content"-->
+                        <!--android:layout_height="wrap_content"-->
+                        <!--android:background="@null"-->
+                        <!--android:gravity="center_vertical"-->
+                        <!--android:hint="@string/creationDate"-->
+                        <!--android:inputType="text"-->
+                        <!--android:focusableInTouchMode="false"-->
+                        <!--android:clickable="false"-->
+                        <!--android:cursorVisible="false"-->
+                        <!--android:maxLines="1"-->
+                        <!--android:minLines="1"-->
+                        <!--android:minWidth="250dp"-->
+                        <!--android:paddingBottom="10dp"-->
+                        <!--android:paddingTop="10dp"-->
+                        <!--android:textSize="@dimen/text_forteen" />-->
+
+                    <!--<ImageView-->
+                        <!--android:layout_width="20dp"-->
+                        <!--android:layout_height="20dp"-->
+                        <!--android:layout_alignParentRight="true"-->
+                        <!--android:layout_marginRight="10dp"-->
+                        <!--android:layout_centerVertical="true"-->
+                        <!--android:gravity="center"-->
+                        <!--android:padding="1dp"-->
+                        <!--android:scaleType="fitXY"-->
+                        <!--app:srcCompat="@drawable/calendar_text" />-->
+                <!--</RelativeLayout>-->
+                <!--<TextView-->
+                    <!--android:layout_width="match_parent"-->
+                    <!--android:layout_height="1dp"-->
+                    <!--android:background="@color/blur_black_color"/>-->
+
+                <RelativeLayout
+                    android:layout_marginTop="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <EditText
+                        android:id="@+id/etEnds"
+                        android:layout_marginLeft="3dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@null"
+                        android:gravity="center_vertical"
+                        android:hint="@string/byWhenYouPlanToBy"
+                        android:inputType="text"
+                        android:focusableInTouchMode="false"
+                        android:clickable="false"
+                        android:cursorVisible="false"
+                        android:maxLines="1"
+                        android:minLines="1"
+                        android:minWidth="250dp"
+                        android:paddingBottom="10dp"
+                        android:paddingTop="10dp"
+                        android:textSize="@dimen/text_forteen" />
+
+                    <ImageView
+                        android:layout_width="20dp"
+                        android:layout_height="20dp"
+                        android:layout_alignParentRight="true"
+                        android:layout_marginRight="10dp"
+                        android:layout_centerVertical="true"
+                        android:gravity="center"
+                        android:padding="1dp"
+                        android:scaleType="fitXY"
+                        app:srcCompat="@drawable/calendar_text" />
+                </RelativeLayout>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="@color/blur_black_color"/>
+                <TextView
+                    android:layout_marginLeft="5dp"
+                    android:textSize="11sp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/gray_variant"
+                    android:text="@string/endDateGuideLine" />
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_marginTop="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <EditText
+                        android:id="@+id/etDesc"
+                        android:hint="@string/moreDetailsLookingFor"
+                        android:minLines="5"
+                        android:maxLines="5"
+                        android:scrollbars="vertical"
+                        android:gravity="center_vertical|top"
+                        android:inputType="textMultiLine"
+                        android:textSize="@dimen/text_forteen"
+                        android:layout_marginLeft="4dp"
+                        android:layout_marginStart="4dp"
+                        android:background="@null"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" />
+
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="@color/blur_black_color"/>
+
+
+                <Button
+                    android:id="@+id/btnCreate"
+                    android:layout_gravity="center_horizontal"
+                    android:text="@string/giveMeOfferes"
+                    android:gravity="center"
+                    android:textColor="@color/white_color"
+                    android:layout_marginTop="30dp"
+                    android:layout_marginRight="10dp"
+                    android:textAllCaps="false"
+                    android:layout_marginLeft="10dp"
+                    android:background="@drawable/button_bg_fill_orange_2"
+                    android:layout_width="match_parent"
+                    android:layout_height="45dp" />
+
+            </LinearLayout>
+
+
+
+
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+
+
+
+
+</LinearLayout>

@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white_color"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/logo"
+                android:layout_width="100dp"
+                android:layout_height="80dp"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="50dp"
+                android:scaleType="centerInside"
+                android:src="@drawable/icon" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@+id/logo"
+                android:gravity="center_horizontal"
+                android:orientation="vertical">
+
+
+                <LinearLayout
+                    android:id="@+id/linear_layout_otp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="50dp"
+                    android:layout_marginRight="50dp"
+                    android:layout_marginTop="50dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="50dp"
+                        android:layout_marginLeft="50dp"
+                        android:layout_marginRight="50dp"
+                        android:layout_marginStart="50dp"
+                        android:gravity="center"
+                        android:text="@string/enter_otp" />
+
+                    <EditText
+                        android:id="@+id/etOtp"
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:layout_marginLeft="4dp"
+                        android:layout_marginStart="4dp"
+                        android:layout_marginTop="10dp"
+                        android:background="@null"
+                        android:gravity="center_vertical"
+                        android:hint="@string/otp"
+                        android:inputType="number"
+                        android:maxLength="4"
+                        android:maxLines="1"
+                        android:minLines="1"
+                        android:textSize="@dimen/text_ten" />
+
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginEnd="50dp"
+                    android:layout_marginLeft="50dp"
+                    android:layout_marginRight="50dp"
+                    android:layout_marginStart="50dp"
+                    android:background="@color/blur_black_color" />
+
+                <Button
+                    android:id="@+id/otp_submit_button"
+                    android:layout_width="200dp"
+                    android:layout_height="40dp"
+                    android:layout_below="@+id/option_login_screen_seller_login_button"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="30dp"
+                    android:background="@drawable/button_bg_fill_orange"
+                    android:gravity="center"
+                    android:text="@string/submit"
+                    android:textColor="@color/white_color"
+                    android:textSize="@dimen/text_eighteen" />
+
+
+
+
+
+                    <TextView
+                        android:layout_marginTop="30dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:text="OTP has been sent to the following email"
+                        android:textColor="@color/black_color"
+                        android:textSize="@dimen/text_twelve" />
+
+
+
+
+                <LinearLayout
+
+                    android:paddingBottom="20dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="50dp"
+                    android:layout_marginRight="50dp"
+                    android:layout_marginTop="10dp"
+                    android:orientation="vertical">
+
+
+                    <EditText
+                        android:paddingTop="10dp"
+                        android:id="@+id/etEmail"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="@string/registration_user_email"
+                        android:inputType="textEmailAddress"
+                        android:maxLines="1"
+                        android:minLines="1"
+                        android:paddingBottom="12dp"
+                        android:enabled="false"
+                        android:textColor="@drawable/edit_enable_color"
+                        android:background="@null"
+                        android:paddingLeft="7dp"
+                        android:textSize="@dimen/text_ten" />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:background="@color/blur_black_color" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:orientation="horizontal">
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical">
+
+                            <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:orientation="horizontal">
+
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="40dp"
+                                    android:layout_marginLeft="4dp"
+                                    android:layout_marginStart="4dp"
+                                    android:background="@null"
+                                    android:gravity="center_vertical"
+                                    android:text="+"
+                                    android:textSize="@dimen/text_ten" />
+
+                                <EditText
+                                    android:enabled="false"
+                                    android:id="@+id/etCode"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="40dp"
+                                    android:layout_marginLeft="4dp"
+                                    android:layout_marginStart="4dp"
+                                    android:background="@null"
+                                    android:gravity="center_vertical"
+                                    android:textColor="@drawable/edit_enable_color"
+                                    android:hint="@string/code"
+                                    android:inputType="phone"
+                                    android:maxLength="3"
+                                    android:maxLines="1"
+                                    android:minLines="1"
+                                    android:text="91"
+                                    android:textSize="@dimen/text_ten" />
+
+                            </LinearLayout>
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="1dp"
+                                android:background="@color/blur_black_color" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="10dp"
+                            android:orientation="vertical">
+
+
+                            <EditText
+                                android:enabled="false"
+                                android:id="@+id/etPhone"
+                                android:layout_width="match_parent"
+                                android:layout_height="40dp"
+                                android:layout_marginLeft="4dp"
+                                android:layout_marginStart="4dp"
+                                android:background="@null"
+                                android:gravity="center_vertical"
+                                android:hint="@string/registration_activity_contact"
+                                android:inputType="phone"
+                                android:maxLength="10"
+                                android:textColor="@drawable/edit_enable_color"
+                                android:maxLines="1"
+                                android:minLines="1"
+                                android:textSize="@dimen/text_ten" />
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="1dp"
+                                android:background="@color/blur_black_color" />
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                    <Button
+                        android:id="@+id/btnEdit"
+                        android:layout_width="200dp"
+                        android:layout_height="40dp"
+                        android:layout_below="@+id/option_login_screen_seller_login_button"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginTop="20dp"
+                        android:background="@drawable/button_bg_fill_orange"
+                        android:layout_gravity="center"
+                        android:text="@string/edit"
+                        android:textColor="@color/white_color"
+                        android:textSize="@dimen/text_eighteen" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+        </RelativeLayout>
+    </ScrollView>
+
+</RelativeLayout>

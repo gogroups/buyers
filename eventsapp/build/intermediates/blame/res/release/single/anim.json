@@ -1,0 +1,26 @@
+[
+    {
+        "merged": "C:\\Users\\Sakshi\\Desktop\\Buyer\\eventsapp\\build\\intermediates\\res\\merged\\release\\anim\\abc_slide_in_top.xml",
+        "source": "C:\\Users\\Sakshi\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-19.1.0.aar\\adcb06bf5385f98349548a71db7f017f\\res\\anim\\abc_slide_in_top.xml"
+    },
+    {
+        "merged": "C:\\Users\\Sakshi\\Desktop\\Buyer\\eventsapp\\build\\intermediates\\res\\merged\\release\\anim\\abc_slide_in_bottom.xml",
+        "source": "C:\\Users\\Sakshi\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-19.1.0.aar\\adcb06bf5385f98349548a71db7f017f\\res\\anim\\abc_slide_in_bottom.xml"
+    },
+    {
+        "merged": "C:\\Users\\Sakshi\\Desktop\\Buyer\\eventsapp\\build\\intermediates\\res\\merged\\release\\anim\\abc_fade_out.xml",
+        "source": "C:\\Users\\Sakshi\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-19.1.0.aar\\adcb06bf5385f98349548a71db7f017f\\res\\anim\\abc_fade_out.xml"
+    },
+    {
+        "merged": "C:\\Users\\Sakshi\\Desktop\\Buyer\\eventsapp\\build\\intermediates\\res\\merged\\release\\anim\\abc_fade_in.xml",
+        "source": "C:\\Users\\Sakshi\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-19.1.0.aar\\adcb06bf5385f98349548a71db7f017f\\res\\anim\\abc_fade_in.xml"
+    },
+    {
+        "merged": "C:\\Users\\Sakshi\\Desktop\\Buyer\\eventsapp\\build\\intermediates\\res\\merged\\release\\anim\\abc_slide_out_top.xml",
+        "source": "C:\\Users\\Sakshi\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-19.1.0.aar\\adcb06bf5385f98349548a71db7f017f\\res\\anim\\abc_slide_out_top.xml"
+    },
+    {
+        "merged": "C:\\Users\\Sakshi\\Desktop\\Buyer\\eventsapp\\build\\intermediates\\res\\merged\\release\\anim\\abc_slide_out_bottom.xml",
+        "source": "C:\\Users\\Sakshi\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-19.1.0.aar\\adcb06bf5385f98349548a71db7f017f\\res\\anim\\abc_slide_out_bottom.xml"
+    }
+]

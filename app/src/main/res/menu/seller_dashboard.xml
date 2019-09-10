@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <!--<item-->
+        <!--android:id="@+id/action_search"-->
+        <!--android:title="@string/search"-->
+        <!--app:showAsAction="always"-->
+        <!--android:icon="@drawable/ic_search_white_24dp"-->
+         <!--/>-->
+
+    <item
+        android:id="@+id/action_filter"
+        android:title="@string/filter"
+        app:showAsAction="always"
+        android:icon="@drawable/filter_outline"
+        />
+    <item
+        android:id="@+id/action_bell"
+        android:title="@string/notifications"
+        app:showAsAction="always"
+        android:icon="@drawable/ic_notifications_none_white_24dp"
+        />
+    <item
+        android:id="@+id/action_add_advertisement"
+        android:title="@string/add_advertisement"
+        app:showAsAction="always"
+        android:icon="@drawable/ic_add_circle_outline_white_24dp"
+        />
+</menu>

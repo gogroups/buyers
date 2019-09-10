@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#ff2900</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="white_color">#FFFFFF</color>
+    <color name="white_red">#FDF5F0</color>
+    <color name="white">#ffffff</color>
+    <color name="black_color">#000000</color>
+    <color name="transparentBlack">#55000000</color>
+    <color name="orange_color">#f34513</color>
+    <color name="orange_color2">#ff2900</color>
+    <color name="blur_black_color">#C7C7C7</color>
+    <color name="red_color">#CA2728</color>
+    <color name="green_color">#339421</color>
+    <color name="silver_color">#F5F5F5</color>
+    <color name="skin">#E0AC69</color>
+    <color name="skin2">#F1C27D</color>
+    <color name="black_mountain">#808080</color>
+    <color name="pure_white_color">#ffffff</color>
+    <color name="minor_blur_blue">#f8f8f8</color>
+    <color name="grey_logo">#6e6e6e</color>
+    <color name="grayNew">#E5EBED</color>
+    <color name="grayLight">#D8DEE2</color>
+    <color name="redAppColor">#f34513</color>
+    <color name="redAppColorDeselect">#44f34513</color>
+    <color name="transparent">#00ffffff</color>
+
+    <color name="grayBg">#F5F5F5</color>
+    <color name="gray0">#D7D7D7</color>
+    <color name="gray1">#CECFD1</color>
+    <color name="gray2">#b1b3b5</color>
+    <color name="gray3">#949494</color>
+    <color name="gray4">#848484</color>
+    <color name="gray5">#747474</color>
+    <color name="gray6">#d6342930</color>
+    <color name="gray7">#f5f4f4</color>
+    <color name="darkGray">#777777</color>
+    <color name="lightGray">#D3D3D3</color>
+    <color name="navigationBarColor">#ff2900</color>
+    <color name="grid_blur">#e6342930</color>
+    <color name="add_detail_blur">#66000000</color>
+    <color name="dark_grey">#263238</color>
+    <color name="light_grey">#E0E0E0</color>
+    <color name="edit_profile_green">#00bbaf</color>
+    <color name="password_lime_green">#acb900</color>
+    
+    <color name="fb_background">#3a50a2</color>
+    <color name="google_plus_background">#ed371b</color>
+    <color name="linkedin_background">#3da8f6</color>
+    <color name="twitter_background">#0084b7</color>
+    <color name="blur_white">#f4f4f4</color>
+    <color name="text_grey">#8c8c8c</color>
+    <color name="viewColor">#A9B1B7</color>
+    <color name="orange_transparent">#ffd21e00</color>
+    <color name="blue_color">#48b0f1</color>
+    <color name="purple_color">#AA00FF</color>
+    <color name="circle_date_red">#ee554e</color>
+    <color name="circle_member_green">#4bb6aa</color>
+    <color name="circle_money_green">#afb32a</color>
+
+    <color name="Gold">#FFD700</color>
+    <color name="Pink">#FFC0CB</color>
+    <color name="LightPink">#FFB6C1</color>
+    <color name="Orange">#FFA500</color>
+    <color name="LightSalmon">#FFA07A</color>
+    <color name="DarkOrange">#FF8C00</color>
+    <color name="Coral">#FF7F50</color>
+    <color name="HotPink">#FF69B4</color>
+
+    <color name="orange">#FF9000</color>
+    <color name="goldDark">#776a37</color>
+    <color name="goldLight">#866E32</color>
+    <color name="green2">#9F9D26</color>
+    <color name="profile">#A1A312</color>
+    <color name="darkPurple">#5756D6</color>
+    <color name="white_tab_bg">#F6F6F6</color>
+    <color name="navyblue">#3560ae</color>
+    <color name="background_gradient_start">#000000</color>
+    <color name="background_gradient_end">#DDDDDD</color>
+    <color name="fastlane_background">#0096a6</color>
+    <color name="search_opaque">#ffaa3f</color>
+    <color name="selected_background">#ffaa3f</color>
+    <color name="default_background">#3d3d3d</color>
+    <color name="blue2">#4298fa</color>
+
+</resources>

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:padding="10dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <FrameLayout
+        android:layout_centerHorizontal="true"
+        android:layout_width="140dp"
+        android:layout_height="140dp">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/imgProfile"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:src="@drawable/place_holder"/>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/circle_layout"/>
+
+        <LinearLayout
+            android:padding="11dp"
+            android:layout_width="wrap_content"
+            android:layout_gravity="center_horizontal|center_vertical"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+        <TextView
+            android:id="@+id/tvCategoryName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="top"
+            android:maxLines="3"
+            android:minLines="1"
+            android:ellipsize="marquee"
+            android:inputType="textMultiLine"
+            android:layout_marginTop="0dp"
+            android:gravity="center"
+            android:text="Group Name"
+            android:textColor="@color/pure_white_color"
+            android:textSize="@dimen/text_forteen"/>
+
+        <TextView
+            android:id="@+id/tvGroupNum"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="25 Groups"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:textColor="@color/pure_white_color"
+            android:textSize="@dimen/text_ten"/>
+
+        <TextView
+                android:id="@+id/tvPost"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="+0 new posts"
+                android:gravity="center"
+                android:layout_gravity="bottom"
+                android:layout_marginBottom="30dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:textColor="@color/pure_white_color"
+                android:textSize="@dimen/text_ten"/>
+        </LinearLayout>
+    </FrameLayout>
+
+
+</RelativeLayout>

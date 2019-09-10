@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical"
+        android:paddingLeft="40dp"
+        android:paddingRight="40dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:id="@+id/linear_layout_name"
+
+                android:layout_marginTop="20dp"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/registration_seller_name_icon"
+                    android:padding="1dp"
+                    android:scaleType="fitXY"
+                    android:gravity="center"
+                    android:layout_gravity="center"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp" />
+
+                <EditText
+                    android:id="@+id/etName"
+                    android:hint="@string/registeration_activity_name_optional"
+                    android:minLines="1"
+                    android:maxLines="1"
+                    android:gravity="center_vertical"
+                    android:inputType="text"
+                    android:textSize="@dimen/text_ten"
+                    android:layout_marginLeft="4dp"
+                    android:layout_marginStart="4dp"
+                    android:background="@null"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp" />
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+
+                android:layout_height="1dp"
+                android:background="@color/blur_black_color"/>
+
+            <LinearLayout
+                android:id="@+id/linear_layout_contact"
+
+                android:layout_marginTop="20dp"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/registration_seller_contact"
+                    android:padding="1dp"
+                    android:scaleType="fitXY"
+                    android:gravity="center"
+                    android:layout_gravity="center"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp" />
+
+                <EditText
+                    android:id="@+id/etContact"
+                    android:hint="@string/mobile2"
+                    android:minLines="1"
+                    android:maxLength="10"
+                    android:maxLines="1"
+                    android:gravity="center_vertical"
+                    android:inputType="number"
+                    android:textSize="@dimen/text_ten"
+                    android:layout_marginLeft="4dp"
+                    android:layout_marginStart="4dp"
+                    android:background="@null"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp" />
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+
+                android:layout_height="1dp"
+                android:background="@color/blur_black_color"/>
+
+            <LinearLayout
+                android:id="@+id/linear_layout_email"
+
+                android:layout_marginTop="20dp"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/registration_seller_email"
+                    android:padding="1dp"
+                    android:scaleType="fitXY"
+                    android:gravity="center"
+                    android:layout_gravity="center"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp" />
+
+                <EditText
+                    android:id="@+id/etEmail"
+                    android:hint="@string/registeration_activity_email_optional"
+                    android:minLines="1"
+                    android:maxLines="1"
+                    android:gravity="center_vertical"
+                    android:inputType="textEmailAddress"
+                    android:textSize="@dimen/text_ten"
+                    android:layout_marginLeft="4dp"
+                    android:layout_marginStart="4dp"
+                    android:background="@null"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp" />
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+
+                android:layout_height="1dp"
+                android:background="@color/blur_black_color"/>
+
+
+            <Button
+                android:id="@+id/btnSignUp"
+                android:layout_gravity="center_horizontal"
+                android:text="@string/next"
+                android:gravity="center"
+                android:textColor="@color/white_color"
+                android:layout_marginTop="55dp"
+                android:background="@drawable/button_bg_fill_orange"
+                android:layout_width="180dp"
+                android:layout_height="50dp" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="20dp">
+            </RelativeLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>

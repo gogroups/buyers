@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/layout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="220dp"
+        android:layout_marginBottom="2dp">
+
+
+        <ImageView
+            android:id="@+id/imgProfile"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:foreground="@color/transparentBlack"
+            android:scaleType="centerCrop"
+            android:src="@drawable/placeholder" />
+
+
+        <TextView
+            android:id="@+id/tvCategoryName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:ellipsize="end"
+            android:maxLines="3"
+            android:minLines="1"
+            android:padding="10dp"
+            android:text="Group Name"
+            android:textColor="@color/white"
+            android:textSize="@dimen/large"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tvCategoryName"
+            android:layout_centerHorizontal="true"
+            android:drawablePadding="5dp"
+            android:drawableRight="@drawable/ic_arrow_right"
+            android:padding="10dp"
+            android:text="@string/explore"
+            android:textAllCaps="true"
+            android:textColor="@color/white"
+            android:textSize="@dimen/defaultSize" />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:padding="10dp">
+
+            <ImageView
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:background="@drawable/bg_circle_fill"
+                android:padding="3dp"
+                android:backgroundTint="@color/circle_member_green"
+                android:src="@drawable/ic_groups"
+                android:tint="@color/white" />
+
+            <TextView
+                android:id="@+id/tvGroupNum"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:text="25 Groups"
+                android:textColor="@color/white"
+                android:textSize="@dimen/defaultSize" />
+
+            <View
+                android:layout_width="1.2dp"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="2dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="2dp"
+                android:background="@color/white" />
+            <ImageView
+                android:layout_marginRight="10dp"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:src="@drawable/ic_adds"/>
+            <TextView
+                android:id="@+id/tvPost"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="+0 new posts"
+                android:textColor="@color/white"
+                android:textSize="@dimen/defaultSize" />
+        </LinearLayout>
+
+
+    </RelativeLayout>
+
+
+</LinearLayout>

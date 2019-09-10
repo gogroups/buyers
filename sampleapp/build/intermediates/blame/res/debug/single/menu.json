@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "D:\\Tarn\\GoGroup\\GoGroupRepo\\sampleapp\\build\\intermediates\\res\\merged\\debug\\menu\\api.xml",
+        "source": "D:\\Tarn\\GoGroup\\GoGroupRepo\\sampleapp\\src\\main\\res\\menu\\api.xml"
+    },
+    {
+        "merged": "D:\\Tarn\\GoGroup\\GoGroupRepo\\sampleapp\\build\\intermediates\\res\\merged\\debug\\menu\\main.xml",
+        "source": "D:\\Tarn\\GoGroup\\GoGroupRepo\\sampleapp\\src\\main\\res\\menu\\main.xml"
+    },
+    {
+        "merged": "D:\\Tarn\\GoGroup\\GoGroupRepo\\sampleapp\\build\\intermediates\\res\\merged\\debug\\menu\\deeplink.xml",
+        "source": "D:\\Tarn\\GoGroup\\GoGroupRepo\\sampleapp\\src\\main\\res\\menu\\deeplink.xml"
+    }
+]

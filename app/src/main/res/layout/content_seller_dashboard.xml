@@ -1,0 +1,88 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="?attr/actionBarSize"
+    android:background="@color/gray0"
+    android:gravity="top"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_margin="3dp"
+        android:orientation="horizontal"
+        android:weightSum="4">
+
+
+        <TextView
+            android:id="@+id/tvAll"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="3dp"
+            android:layout_weight="1"
+            android:background="@drawable/bg_round_fill3"
+            android:gravity="center"
+            android:padding="5dp"
+            android:text="@string/all"
+            android:textColor="@color/gray6"
+            android:textSize="@dimen/defaultSize" />
+        <TextView
+            android:id="@+id/tvActive"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="3dp"
+            android:layout_weight="1"
+            android:background="@drawable/bg_round_fill3"
+            android:gravity="center"
+            android:padding="5dp"
+            android:text="@string/active"
+            android:textColor="@color/gray6"
+            android:textSize="@dimen/defaultSize" />
+
+        <TextView
+            android:id="@+id/tvExpired"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="3dp"
+            android:layout_weight="1"
+            android:background="@drawable/bg_round_fill3"
+            android:gravity="center"
+            android:padding="5dp"
+            android:text="@string/expired"
+            android:textColor="@color/gray6"
+            android:textSize="@dimen/defaultSize" />
+
+        <TextView
+            android:id="@+id/tvPending"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="3dp"
+            android:layout_weight="1"
+            android:background="@drawable/bg_round_fill3"
+            android:gravity="center"
+            android:padding="5dp"
+            android:text="@string/pending"
+            android:textColor="@color/gray6"
+            android:textSize="@dimen/defaultSize" />
+
+
+    </LinearLayout>
+
+    <include layout="@layout/layout_empty_text" />
+
+    <android.support.v4.widget.SwipeRefreshLayout
+        android:id="@+id/swipeRefreshLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/recyclerAdvertisement"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/layout"
+            android:scrollbars="vertical" />
+    </android.support.v4.widget.SwipeRefreshLayout>
+</LinearLayout>

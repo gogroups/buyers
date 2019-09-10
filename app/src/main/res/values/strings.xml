@@ -1,0 +1,817 @@
+<resources>
+    <!--<string name="facebook_app_id">124234418228962</string>-->
+    <!--<string name="fb_login_protocol_scheme">fb124234418228962</string>-->
+    <string name="com.twitter.sdk.android.CONSUMER_KEY">tOCoHq2PZo2CkFiRbcxqvgWFr</string>
+    <string name="com.twitter.sdk.android.CONSUMER_SECRET">RqXC63TA73OzEEOrMQigisRZ0Jku6u2wsZBqdHbGnkvmuRTU5P</string>
+    <string name="app_name">GoGroup-Buyers</string>
+    <string name="mesibo_token">eea9qr5swru10d32z58bx0whmztaafvpb7ni6vc3ree2g4nw3uypigp5tarn1g8f</string>
+    <string name="chatCampAppId">6441163417230241792</string>
+    <string name="option_login_screen_seller">Seller</string>
+    <string name="option_login_screen_user">User</string>
+    <string name="shared">GoGroup</string>
+    <string name="Validation_Internet_Connection">Please Connect The Internet First</string>
+
+    // Login Screen strings....
+    <string name="login_activity_login_button">LOGIN</string>
+    <string name="login_activity_forgot_password_textview">FORGOT PASSWORD ?</string>
+    <string name="login_activity_registeration_textview">Not Registered?</string>
+    <string name="login_activity_registeration_click_textview">Sign Up</string>
+    <string name="login_activity_registeration_here_textview">Please</string>
+    <string name="login_activity_email_edittext">Email*</string>
+    <string name="login_activity_password_edittext">Password*</string>
+    <string name="login_activity_or">Or</string>
+
+    // Validations On Login Page
+    <string name="login_activity_email_validation">Please enter the email</string>
+    <string name="login_activity_email_valid_validation">Please enter the valid email</string>
+    <string name="login_activity_password_validation">Please enter the password</string>
+
+    // Registeration Screen strings....
+    <string name="registeration_activity_name"> Name*</string>
+    <string name="registeration_activity_name_optional"> Name*(Optional)</string>
+    <string name="registeration_activity_email">Email*</string>
+    <string name="registeration_activity_email_optional">Email*(Optional)</string>
+    <string name="registration_activity_contact">Contact No.*</string>
+    <string name="registration_activity_contact_optional">Contact No.*(Optional)</string>
+    <string name="registration_tin">TIN no*</string>
+    <string name="registration_company_name">Name of Company*</string>
+    <string name="registration_location">Location*</string>
+    <string name="registration_photographs">Photographs*</string>
+    <string name="registration_seller_usp">USP for Seller*</string>
+    <string name="registeration_activity_password">Password</string>
+    <string name="registeration_activity_confirm_password">Confirm Password</string>
+    <string name="registeration_activity_sign_up">Sign Up</string>
+    <string name="submit">Submit</string>
+
+    // Validations On Registration
+    <string name="validationUserName">Please enter the Username</string>
+    <string name="validationPassword">Please enter the Password</string>
+    <string name="validationEmail">Please enter the email</string>
+    <string name="validationValidEmail">Please enter the valid email</string>
+    <string name="validationConfirmPassword">Please enter the Confirm Password</string>
+
+
+    // Vendor Home Screen Strings....
+
+    // Navigation View This Strings
+    <string name="vendor_home_activity_home">Home</string>
+    <string name="vendor_home_activity_dashboard">Dashboard</string>
+    <string name="vendor_home_activity_setting">Settings</string>
+    <string name="vendor_home_activity_about">About</string>
+    <string name="vendor_home_activity_upload_products">Upload Products</string>
+    <string name="vendor_home_activity_logout">Logout</string>
+    <string name="vendor_home_requests">REQUEST</string>
+    <string name="vendor_home_accepted">ACCEPTED</string>
+    <string name="vendor_home_completed">COMPLETED</string>
+    <string name="vendor_home_product_id">Product ID</string>
+
+
+    // Vendor Home Screen Apart of Navigation Bar
+    <string name="vendor_home_activity_request">REQUESTS</string>
+    <string name="vendor_home_activity_accepted">ACCEPTED</string>
+    <string name="vendor_home_activity_completed">COMPLETED</string>
+    <string name="vendor_home_activity_accept">Accept</string>
+    <string name="vendor_home_activity_reject">Reject</string>
+
+
+    // vendor home upload product
+    <string name="vendor_home_upload_products_upload_products">Upload Products</string>
+    <string name="vendor_home_upload_products_please_upload_product_details_excelsheet">Please Upload Product Details Excelsheet</string>
+    <string name="vendor_home_upload_product_your_current_disfetch_store">Your Current Disfetch Store</string>
+    <string name="vendor_home_upload_product_last_updated">Last Updated</string>
+    <string name="vendor_home_upload_product_total_products">Total Products</string>
+
+
+    // Store Information
+    <string name="store_information_text_store_information">Store Information</string>
+    <string name="store_information_activity_scan_qr">SCAN QR</string>
+    <string name="store_information_acivity_fetch_history">FETCH HISTORY</string>
+    <string name="store_information_activity_enter_qr_code">Enter QR Code</string>
+    <string name="store_information_activity_ok"><u>OK</u></string>
+
+
+    // Pending Products
+    <string name="pending_products_search_products">Search Products</string>
+
+
+    // Custom vendor home Completed
+    <string name="vendor_home_completed_price_of_the_cloth">Price:</string>
+    <string name="vendor_home_completed_fetch_price_of_the_cloth">Fetch Price:</string>
+    <string name="vendor_home_completed_date_of_request_of_the_cloth">Request Date:</string>
+    <string name="vendor_home_completed_request_time_of_the_cloth">Time:</string>
+    <string name="vendor_home_completed_request_acceptance_of_the_cloth">Acceptance Date:</string>
+
+
+    // Custom vendor home Accepted
+    <string name="vendor_home_accepted_date">Accepted Date:</string>
+
+
+    // vendor Home filter
+    <string name="vendor_home_filter_filter">Filter</string>
+    <string name="vendor_home_filter_reset">RESET</string>
+    <string name="vendor_home_filter_sort_by">Sort by</string>
+    <string name="vendor_home_filter_date">Date</string>
+    <string name="vendor_home_filter_qr_code">QR Code</string>
+    <string name="vendor_home_filter_product_details">Product Details</string>
+    <string name="vendor_home_filter_quote_price">Quote Price</string>
+    <string name="vendor_home_filter_filter_by">Filter by</string>
+    <string name="vendor_home_filter_date_by_request">Date by Request</string>
+    <string name="vendor_home_filter_from">From</string>
+    <string name="vendor_home_filter_to">To</string>
+    <string name="vendor_home_filter_date_of_acceptance">Date Of Acceptance</string>
+    <string name="vendor_home_filter_status">Status</string>
+    <string name="vendor_home_filter_product_price">Product Price</string>
+    <string name="vendor_home_filter_apply">Apply</string>
+
+
+    // VendorHomeDashBoardTotalUserShowProfile
+    <string name="VendorHomeDashBoardTotalUserShowProfile_profile">Profile</string>
+    <string name="VendorHomeDashBoardTotalUserShowProfile_requested_quote">Requested Quote</string>
+    <string name="VendorHomeDashBoardTotalUserShowProfile_accepted_quote">Accepted Quote</string>
+    <string name="VendorHomeDashBoardTotalUserShowProfile_rejected_quote">Rejected Quote</string>
+
+
+    // vendor home dashboard
+    <string name="vendor_home_dashboard_number_use_per_month">Number Use Per Month</string>
+    <string name="vendor_home_dashboard_dashboard">Dashboard</string>
+
+    // Product Details
+    <string name="product_details_product_details">Product Details</string>
+    <string name="product_details_request_details">Request Date:</string>
+    <string name="product_details_time">Time:</string>
+    <string name="product_details_price">Price:</string>
+    <string name="product_details_accepted_date">Accepted Date:</string>
+    <string name="product_details_time_">Time</string>
+    <string name="product_details_fetch_price">Fetch Price:</string>
+
+    <string name="product_details_product_name">Product Name</string>
+    <string name="product_details_brand">Brand</string>
+    <string name="product_details_price_product">Price</string>
+    <string name="product_details_type">Type</string>
+    <string name="product_details_color">Color</string>
+    <string name="product_details_product_id">Product Id</string>
+    <string name="product_details_product_delivery">Product Delivery</string>
+    <string name="product_details_issue_rasied">Issue Raised</string>
+
+    <string name="product_details_accept">ACCEPT</string>
+    <string name="product_details_reject">REJECT</string>
+    <string name="product_details_send">SEND</string>
+
+    <string name="product_details_accepting">Accepted</string>
+    <string name="product_details_delivery_pending">Delivery Pending</string>
+    <string name="product_details_pending">Pending</string>
+    <string name="product_details_delivered">Delivered</string>
+    <string name="product_details_delivering">Delivery</string>
+    <string name="product_details_completed">Completed</string>
+    <string name="product_details_Cancel">Cancel</string>
+
+    // Profile Screen
+    <string name="profile_profile">Profile</string>
+    <string name="profile_profile_information">Profile Information</string>
+    <string name="profile_name">Name</string>
+    <string name="profile_address">Address</string>
+    <string name="profile_e_mail">E-mail</string>
+    <string name="profile_contact_number">Contact Number</string>
+
+    <string name="profile_account_information">Account Informatio</string>
+    <string name="profile_account_name">Account Name</string>
+    <string name="profile_account_number">Account Number</string>
+    <string name="profile_account_ifcs_code">Account IFCS Code</string>
+    <string name="profile_bank_name">Bank Name</string>
+
+    // Validaions of Profile
+    <string name="profile_name_validation">Please enter the Name</string>
+    <string name="profile_address_validation">Please enter the Address</string>
+    <string name="profile_email_validation">Please enter the E-mail</string>
+    <string name="profile_contact_number_validation">Please enter the Contact Number</string>
+
+    <string name="account_name_validation">Please enter the Account Name</string>
+    <string name="account_number_validation">Please enter the Account Number</string>
+    <string name="account_ifcs_code_validation">Please enter the Account IFCS Code</string>
+    <string name="account_bank_name_validation">Please enter the Bank Name</string>
+
+    // FONTAWESOME ICONS
+
+    <string name="fa_plus_square_o">&#xf196;</string>
+
+    <!--// ION ICONS-->
+
+    <string name="icon_ionicon_var_android_calendar">&#xf2d1;</string>
+    <string name="icon_ionicon_var_android_call">&#xf2d2;</string>
+
+    <string name="icon_ionicon_var_android_list">&#xf391;</string>
+
+    <string name="icon_ionicon_var_android_settings">&#xf2f7;</string>
+    <string name="icon_ionicon_var_android_share_alt">&#xf3ac;</string>
+    <string name="icon_ionicon_var_android_star_outline">&#xf3ae;</string>
+    <string name="icon_ionicon_var_chatbox_working">&#xf11a;</string>
+
+    <string name="icon_ionicon_var_heart">&#xf141;</string>
+    <string name="icon_ionicon_var_heart_broken">&#xf31d;</string>
+
+    <string name="icon_ionicon_var_android_contact">&#xf2d8;</string>
+    <string name="icon_ionicon_var_android_contacts">&#xf2d9;</string>
+    <string name="icon_ionicon_var_ios_heart">&#xf443;</string>
+    <string name="icon_ionicon_var_ios_heart_outline">&#xf442;</string>
+    <string name="icon_ionicon_var_chevron_left">&#xf124;</string>
+
+    <string name="icon_ionicon_var_ios_email_outline">&#xf422;</string>
+
+    <string name="icon_ionicon_var_ios_information_outline">&#xf44c;</string>
+
+    <string name="icon_ionicon_var_ios_location_outline">&#xf455;</string>
+
+    <string name="icon_ionicon_var_ios_people_outline">&#xf47b;</string>
+    <string name="icon_ionicon_var_ios_person_outline">&#xf47d;</string>
+
+    <string name="icon_ionicon_var_ios_unlocked_outline">&#xf4c8;</string>
+
+    <string name="icon_ionicon_var_log_out">&#xf29f;</string>
+
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_otp">OtpActivity</string>
+    <string name="otp">OTP*</string>
+    <string name="enter_otp">Enter your OTP</string>
+    <string name="title_activity_seller_dashboard">Home</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_user_registration">UserRegistration</string>
+    <string name="registration_user_name">Name*</string>
+    <string name="registration_user_age">Age</string>
+    <string name="registeration_user_phone">Phone Number*</string>
+    <string name="registeration_user_location">Present Location</string>
+    <string name="registration_user_email">Email*</string>
+    <string name="upload_profile_pic">Upload Profile Pic</string>
+    <string name="search">Search</string>
+    <string name="settings">Settings</string>
+    <string name="about">About</string>
+    <string name="filter">Filter</string>
+    <string name="add_advertisement">Add Advertisement</string>
+    <string name="title_activity_filter">Filters</string>
+    <string name="seller_home_filter_start_date">Start Date</string>
+    <string name="seller_home_filter_end_date">End Date</string>
+    <string name="cost_range">Cost Range</string>
+    <string name="no_of_members">No. of Members</string>
+    <string name="date">Date</string>
+    <string name="google_maps_key">AIzaSyCy_Hbb2TX9SuPOAaXtUYq91s9wetY6FfE</string>
+    <!--<string name="applozic_app_key">1f141bb3d952d653200b0c2498c91a2d0</string>-->
+    <string name="applozic_app_key">zabius19495d068e9906d375a5df3505a45300d</string>
+    <string name="applozic_default_server_url">https://apps.applozic.com</string>
+    <string name="applozic_default_mqtt_server_url">tcp://apps.applozic.com:1883</string>
+    <string name="default_media_location_folder">GoGroup</string>
+    <string name="take_order_userid">ApplozicShop</string>
+    <string name="seller_home_filter_category_text">Category</string>
+    <string name="seller_home_filter_subcategory_text">Sub Category</string>
+    <string name="upto_cost_range">Upto Cost Range</string>
+    <string name="title_activity_add_advertisement">Add Advertisement</string>
+    <string name="seller_home_filter_location_text">Location</string>
+    <string name="no_of_users">No. of users</string>
+    <string name="deal_details">Deal Details</string>
+    <string name="start_date_campaign">Start Date of Campaign</string>
+    <string name="end_date_campaign">End Date of Campaign</string>
+    <string name="upload_pic_max">Upload Pic (Max. 5)</string>
+    <string name="upload_pic">Upload Pic</string>
+    <string name="no_of_groups">No. of Groups :</string>
+    <string name="no_of_views">No. of Views :</string>
+    <string name="end_date">End Date</string>
+    <string name="title_activity_add_detail">Add Detail</string>
+    <string name="start_date">Start Date</string>
+    <string name="end_date_without_semmicolon">End Date</string>
+    <string name="no_of_group_without_semicolon">No. of Groups</string>
+    <string name="category">Category</string>
+    <string name="sub_category">Sub Category</string>
+    <string name="location_title">Location</string>
+    <string name="no_of_views_without_semicolon">No. of Views</string>
+    <string name="title_activity_seller_settings">Settings</string>
+    <string name="account_settings">Account Settings</string>
+    <string name="edit_profile">Edit Profile</string>
+    <string name="change_password">Change Password</string>
+    <string name="privacy_policy">Privacy Policy</string>
+    <string name="terms_of_use">Terms of Use</string>
+    <string name="title_activity_seller_profile">Profile</string>
+    <string name="title_activity_seller_edit_profile">Edit Profile</string>
+    <string name="save_changes">Save Changes</string>
+    <string name="title_activity_user_dashboard">Dashboard</string>
+    <string name="add_group">Add Group</string>
+    <string name="shortlisted">Shortlisted</string>
+    <string name="groups">Interest</string>
+    <string name="chat">Chat</string>
+    <string name="title_activity_user_filter">Filters</string>
+    <string name="title_activity_user_profile">Profile</string>
+    <string name="title_activity_user_edit_profile">Edit Profile</string>
+    <string name="title_activity_user_settings">Settings</string>
+    <string name="title_activity_user_otp">"OTP "</string>
+    <string name="title_activity_create_group">Create Group</string>
+    <string name="name_of_group">Name of Group</string>
+    <string name="created_by">Created by</string>
+    <string name="title_activity_user_group">My Interest</string>
+    <string name="exit">Exit</string>
+    <string name="total_no_of_members">Total No of Members</string>
+    <string name="title_activity_user_tab_chat_screen">Chat</string>
+    <string name="title_activity_user_category_groups_listing">Groups</string>
+    <string name="view_all">View all</string>
+    <string name="join">Join</string>
+    <string name="members">Member(s)</string>
+    <string name="title_activity_user_shortlisted">Shortlisted</string>
+    <string name="title_activity_user_category_group">Group Details</string>
+    <string name="description">Description</string>
+    <string name="description_demo_text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged</string>
+    <string name="join_group">Join Group</string>
+    <string name="only_members_can_c_post">Only Members can see posts</string>
+    <string name="title_activity_user_joined_group_detail">Group</string>
+    <string name="title_activity_user_joined_group_member">Profile</string>
+    <string name="title_activity_user_joined_group_chat">Group Name</string>
+    <string name="title_activity_user_joined_group_chat_members">Total Members : 50</string>
+    <string name="send">Send</string>
+    <string name="write_your_msg">Write your message</string>
+    <string name="title_activity_demo">Demo</string>
+    <string name="title_activity_member_chat">Chat</string>
+    <string name="title_activity_add_view">No. of Viewed</string>
+    <string name="title_no_of_viewed">No. of Viewed</string>
+    <string name="are_you_sure">Are You Sure!</string>
+    <string name="want_2_exit">Do you want to exit?</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="sub_category_1">Sub-Category1</string>
+    <string name="active">Active</string>
+    <string name="sub_category_2">Sub-Category2</string>
+    <string name="view">View</string>
+    <string name="user_name_error">Name is required</string>
+    <string name="user_email_error">Email is required</string>
+    <string name="user_phone_error">Phone is required</string>
+    <string name="user_age_error">Age is required</string>
+    <string name="user_email_pattern_error">Please enter valid email</string>
+    <string name="login_username_error">Username is required</string>
+    <string name="login_email_error">Email is required</string>
+    <string name="login_password_error">Password is required</string>
+    <string name="otp_required_error">Otp is required</string>
+    <string name="loading">Loading...</string>
+    <string name="pleaseWait">Please wait</string>
+    <string name="password">Password*</string>
+    <string name="confirmPassword">Confirm Password*</string>
+    <string name="validationName">Please enter the name</string>
+    <string name="validationCompanyName">Please enter the company name</string>
+    <string name="validationHolderName">Please enter the account holder name</string>
+    <string name="validationBankName">Please enter the bank name</string>
+    <string name="validationIfsc">Please enter the IFSC code</string>
+    <string name="validationAccountNum">Please enter the account number</string>
+    <string name="validationTinNo">Please enter the tin no.</string>
+    <string name="validationUSP">Please enter the USP</string>
+    <string name="validationLocation">Please enter the location</string>
+    <string name="validationAddress">Please enter the address</string>
+    <string name="validationContact">Please enter the contact</string>
+    <string name="validationValidContact">Please enter the valid contact</string>
+    <string name="validationMatchingPassword">Password Not matching</string>
+    <string name="serverError">Server Error</string>
+    <string name="validationValidName">Name must be more than or equal to 5 alphabets</string>
+    <string name="otp_length_error">OTP must be at least 4 characters in length</string>
+    <string name="validationPermission">Some Permissions are Denied. Go to settings and enable permissions</string>
+    <string name="validationPermissionPhoneCall">Phone Call Permissions is Denied. Go to settings and enable permission</string>
+    <string name="validationCamera">Camera Permission is Denied. Go to settings and enable permission</string>
+    <string name="facebookHashKey">ga0RGNYHvNM5d0SLGQfpQWAPGJ8=</string>
+    <string name="releaseKey">zY00cczs2SG28RTn1bZQvsCftvI=</string>
+
+    <!--sonic.pcte@hotmail.com-->
+    <string name="facebook_app_id">116910582319441</string>
+    <string name="fb_login_protocol_scheme">fb116910582319441</string>
+    <!--<string name="fb_login_protocol_scheme">fb345287612596543</string>-->
+
+
+    <!--manpreet@zabius.com-->
+    <!--<string name="fb_login_protocol_scheme">fb952678811550100</string>-->
+    <!--<string name="facebook_app_id">952678811550100</string>-->
+
+    <string name="selectCategory">Select category</string>
+    <string name="selectSubCategory1">Select sub category 1</string>
+    <string name="selectSubCategory2">Select sub category 2</string>
+    <string name="selectSubCategory3">Select sub category 3</string>
+    <string name="selectSubCategory4">Select sub category 4</string>
+    <string name="selectSubCategory5">Select sub category 5</string>
+    <string name="validationNumOfUsers">Please fill the no. of users</string>
+    <string name="validationDesc">Please fill the description</string>
+    <string name="validationDealDetails">Please fill the deal details</string>
+    <string name="validationActualPrice">Please fill the actual price</string>
+    <string name="validationOfferPrice">Please fill the offer price</string>
+    <string name="validationcostfortwo">Please fill the Cost For Two</string>
+    <string name="validationDealName">Please fill the deal name</string>
+    <string name="validationStartDate">Please set the start date</string>
+    <string name="validationEndDate">Please set the end date</string>
+    <string name="validationMinUsers">Please set the min. users</string>
+    <string name="validationCategory">Please select the category</string>
+    <string name="validationSubCategory1">Please select the sub category 1</string>
+    <string name="firstName">First Name*</string>
+    <string name="lastName">Last Name*</string>
+    <string name="subCategory1">Sub Category 1</string>
+    <string name="subCategory2">Sub Category 2</string>
+    <string name="subCategory3">Sub Category 3</string>
+    <string name="subCategory4">Sub Category 4</string>
+    <string name="noDataFound">No Data Found</string>
+    <string name="validationPhoto">Please select at least one photo</string>
+    <string name="validationProfilePhoto">Please select the profile photo</string>
+    <string name="validationCostRange">Please fill the cost range</string>
+    <string name="validationNumOfMembers">Please fill the no. of members</string>
+    <string name="upTo">up to</string>
+    <string name="creationDate">Creation Date</string>
+    <string name="gstNum">GST Number/PAN*</string>
+    <string name="locationRemark">*This is a location where this advertisement is intended for delivering the product or services.</string>
+    <string name="code">Code*</string>
+    <string name="validationCode">Please enter the country code</string>
+    <string name="zipCode">Zip Code*</string>
+    <string name="validationZipCode">Please enter the zip code</string>
+    <string name="ads">ADS</string>
+    <string name="title_activity_user_category_detail">UserCategoryDetail</string>
+    <string name="ads2">Ads</string>
+    <string name="enterEmail">Enter email address</string>
+    <string name="forgetPswdTitle">Please enter your email address.We\'ll send you a password.</string>
+    <string name="ok">OK</string>
+    <string name="forgetPswd">Forget Password?</string>
+    <string name="oldPswd">Old Password*</string>
+    <string name="newPswd">New Password*</string>
+    <string name="change_password2">Change Password?</string>
+    <string name="report">Report</string>
+    <string name="comment">Comment...</string>
+    <string name="validationComment">Please enter the comment</string>
+
+
+    <string name="internet_connection_not_available">No internet connection</string>
+    <string name="you_need_network_access_for_delete">You need to have network access for deleting Conversation </string>
+    <string name="applozic_server_error">Oops! You caught an error, try again later</string>
+    <string name="you_need_network_access_for_block_or_unblock">You need to have network access for block/unblock a user</string>
+    <string name="internet_connection_for_group_name_info">Your phone needs an Internet connection to change the group name</string>
+    <string name="you_dont_have_any_network_access_info">You don\'t have any network access now</string>
+    <string name="failed_to_leave_group">Failed to leave interest</string>
+    <string name="user_is_already_exists">User already exists in interest</string>
+    <string name="delete_conversation_failed">Delete failed</string>
+    <string name="menu_search">Search</string>
+    <string name="menu_add_contact">Create a new contact</string>
+    <string name="menu_edit_contact">Edit Contact</string>
+    <string name="no_contacts">No Contacts Found</string>
+    <string name="no_contact_selected">No Contact Selected</string>
+    <string name="search_hint">Search...</string>
+    <string name="activity_contacts_list">MobiTexter</string>
+    <string name="activity_contacts_title">Select contact</string>
+    <string name="activity_contact_detail">Contact Detail</string>
+    <string name="contacts_list_search_results_title">Contact search for \"%s\"</string>
+    <string name="contactsListActivity">Contact List</string>
+    <string name="phone_number_not_present">Phone number is not present</string>
+    <string name="mobiframework_title_device">Device</string>
+    <string name="mobiframework_title_group">Group</string>
+    <string name="zero_friends_on_phone">No matching contact found on phone contacts but you can still send message by entering the email, userId or phone number</string>
+    <string name="contact_sync_in_progress">Contact sync is in progress, might take few mins</string>
+    <string name="zero_friends_on_app">Contacts not found</string>
+    <string name="zero_groups_on_app">Groups not found</string>
+    <string name="delete_thread_text">Deleting....</string>
+    <string name="search_title">Search</string>
+    <string name="applozic_user_already_in_a_group">Already added to the [groupType]</string>
+    <string name="applozic_contacts_loading_info">Loading please wait...</string>
+    <string name="applozic_contacts_loading_error">You need to have network access for loading contacts</string>
+
+
+    <!--
+         Used for the AlphabetIndexer in ContactsListFragment to provide quick navigation by
+         alphabet using ListView fast scroll.
+    -->
+    <string name="alphabet">ABCDEFGHIJKLMNOPQRSTUVWXYZ</string>
+
+    <!--
+         When using ContactsContract.Contacts#CONTENT_FILTER_URI to search contacts, a match occurs
+         when using a number of different fields, such as name, e-mail address, address, phone
+         number, etc. When a match occurs that is not the name, there is currently no way to tell
+         which other field was matched. This string is displayed in the secondary display text in
+         ContactsListFragment when a search query match occurs that is not the display name.
+    -->
+    <string name="search_match_other">Matches Other Field</string>
+    <string name="invite">Invite your friends</string>
+    <array name="alphabet_color">
+        <item>#f16364</item>
+        <item>#f58559</item>
+        <item>#f9a43e</item>
+        <item>#e4c62e</item>
+        <item>#67bf74</item>
+        <item>#59a2be</item>
+        <item>#2093cd</item>
+        <item>#ad62a7</item>
+    </array>
+    <dimen name="tile_letter_font_size">250dp</dimen>
+    <!-- The deafult tile size -->
+    <dimen name="letter_tile_size">64dp</dimen>
+
+    <string name="contact_permission">Contact permission are needed to access</string>
+    <string name="storage_permission">Storage permission are needed to access</string>
+    <string name="read_sms_permission">Read sms permission are needed to access</string>
+    <string name="location_permission">Location permission are needed to access</string>
+    <string name="phone_state_permisssion">Phone state permission are needed to access</string>
+    <string name="phone_call_permission">Phone call permission are needed to access</string>
+    <string name="phone_camera_permission">Camera permission are needed to access</string>
+    <string name="record_audio">Audio recording permission needed</string>
+    <string name="camera_audio_permission">Camera and record audio permission are needed to access</string>
+
+    <string name="contact_permission_not_granted">Permission were not granted for Contact</string>
+    <string name="storage_permission_not_granted">Permissions were not granted for Storage</string>
+    <string name="read_sms_permission_not_granted">Permissions were not granted for Read</string>
+    <string name="location_permission_not_granted">Permissions were not granted for Location</string>
+    <string name="phone_state_permission_not_granted">Permissions were not granted for Phone state</string>
+    <string name="phone_call_permission_not_granted">Permission were not granted for Phone call</string>
+    <string name="phone_camera_permission_not_granted">Permission were not granted for Camera</string>
+    <string name="record_audio_permission_not_granted">Permissions were not granted for Audio recording</string>
+    <string name="audio_or_camera_permission_not_granted">Permission were not granted for Camera or Audio recording</string>
+
+    <string name="contact_permission_granted">Contacts Permission have been granted</string>
+    <string name="storage_permission_granted">Storage Permissions have been granted</string>
+    <string name="read_sms_permission_granted">Read sms Permissions have been granted</string>
+    <string name="location_permission_granted">Location Permissions has been granted</string>
+    <string name="phone_state_permission_granted">Phone state Permissions has been granted</string>
+    <string name="phone_call_permission_granted">Phone call Permission has been granted</string>
+    <string name="phone_camera_permission_granted">Camera permission has been granted</string>
+    <string name="record_audio_permission_granted">Audio Record permissions has been granted</string>
+    <string name="phone_camera_and_audio_permission_granted">Camera and audio permissions has been granted</string>
+    <string name="mobicom_max_attachment_warning">Max attachment limit reached</string>
+    <string name="mobicom_select_attachment_text">Select at least one attachment</string>
+    <string name="audio_recording_send_text">Tap on Start to record audio</string>
+    <string name="applozic_audio_permission_missing">Unable to launch audio recorder.</string>
+    <string name="applozic_message_info">Message Info</string>
+    <string name="applozic_message_info_no_network">Not able to fetch message info.</string>
+    <string name="applozic_user_profile_heading">Profile</string>
+    <string name="send_message_to">Send to..</string>
+    <string name="info_attachment_max_allowed_file_size_exceeded">Can\'t send maximum uploading file size limit exceeded </string>
+    <string name="group_members_limit_exceeds">Limit reached, remove someone from the Group first</string>
+    <string name="please_wait_creating_group_of_two">Please wait...</string>
+    <string name="sort_contacts_by_lastSeenAt">Sort by lastSeen</string>
+    <string name="sort_contacts_by_recent_chats">Sort by recent chats</string>
+    <string name="chats">Chats</string>
+    <string name="refresh">Refresh</string>
+    <string name="start_New">Start New</string>
+    <string name="dial">Dial</string>
+    <string name="next">Next</string>
+    <string name="done">Done</string>
+    <string name="gallery">Gallery</string>
+    <string name="camera_option">Camera</string>
+    <string name="logout">Logout</string>
+    <string name="copy">Copy</string>
+    <string name="forward">Forward</string>
+    <string name="resend">Resend</string>
+    <string name="delete">Delete</string>
+    <string name="info">Info</string>
+    <string name="share">Share</string>
+    <string name="reply">Reply</string>
+    <string name="self_destruct">Self Destruct</string>
+    <string name="off">Off</string>
+    <string name="one_min">1 min</string>
+    <string name="two_min">2 min</string>
+    <string name="five_min">5 min</string>
+    <string name="ten_min">10 min</string>
+    <string name="sms">SMS</string>
+    <string name="mt">MT</string>
+    <string name="Delete_conversation">Delete conversation</string>
+    <string name="delete_group">Delete group</string>
+    <string name="exit_group">Exit group</string>
+    <string name="message">Message</string>
+    <string name="remove">Remove</string>
+    <string name="make_group_admin">Make group admin</string>
+    <string name="take_photo">Take photo</string>
+    <string name="attach_file">Attach file</string>
+    <string name="audio_message">Audio Message</string>
+    <string name="video_message">Video Message</string>
+    <string name="share_contact">Share Contact</string>
+    <string name="attach_price">Attach price</string>
+    <string name="location">:location</string>
+    <string name="Location">Location</string>
+    <string name="file">:file</string>
+    <string name="audio">:audio</string>
+    <string name="camera">:camera</string>
+    <string name="video">:video</string>
+    <string name="contact">:contact</string>
+    <string name="current_location">Current Location</string>
+    <string name="price">Price</string>
+    <string name="status">status</string>
+    <string name="name">Name</string>
+    <string name="phone">Phone</string>
+    <string name="Group">GROUP</string>
+    <string name="Contact">CONTACT</string>
+    <string name="participants">Participants</string>
+    <string name="cancel">Cancel</string>
+    <string name="Add_caption">Add caption...</string>
+    <string name="New_Attachment">New Attachment</string>
+    <string name="send_location">Send Location</string>
+    <string name="send_your_current_location">Send your current Location</string>
+    <string name="Add_Contacts">Add Contacts</string>
+    <string name="stop">STOP</string>
+    <string name="profile_status">Profile Status</string>
+    <string name="no_status">No Status</string>
+    <string name="online">online</string>
+    <string name="notifications">Notifications</string>
+    <string name="push_notifications">Push Notifications</string>
+    <string name="sales_manager">Sales Manager</string>
+    <string name="display_name">Display Name</string>
+    <string name="today">Today</string>
+    <string name="kb45">45kb</string>
+    <string name="message_text">Message Text</string>
+    <string name="read">Read</string>
+    <string name="delivered">Delivered</string>
+    <string name="file_name_will_come_here_for_attachment">file name will come here for attachment</string>
+    <string name="mb_10">10 MB</string>
+    <string name="mobile_number">mobile number</string>
+    <string name="schedule">Schedule</string>
+    <string name="delivery_status">delivery status</string>
+    <string name="testTime">testTime</string>
+    <string name="created_at_time">created at time</string>
+    <string name="edit_group_name">Edit group name</string>
+    <string name="add_member">Add member</string>
+    <string name="group_not_exist">Group Not Exist</string>
+    <string name="no_groups">No Groups</string>
+    <string name="contacts_not_found">No Contacts Found</string>
+    <string name="remove_image">Remove image</string>
+    <string name="applozic_failed_to_load_contact">Failed to load Contact</string>
+    <string name="applozic_Cropping_failed">Cropping failed</string>
+    <string name="applozic_resending_attachment">Resending attachment....</string>
+    <string name="processing_please_wait">Processing... Please wait</string>
+    <string name="success">success</string>
+    <string name="error">error</string>
+    <string name="mute_group_for">Mute Group For..</string>
+    <string name="eight_Hours">8 Hours</string>
+    <string name="one_week">1 Week </string>
+    <string name="one_year"> 1 Year </string>
+    <string name="file_does_not_exist">file does not Exist</string>
+    <string name="copied_message">Copied message</string>
+    <string name="data_usage">Data Usage</string>
+    <string name="missed">Missed</string>
+    <string name="hold_to_record_release_to_send">Hold to record , release to send</string>
+    <string name="slide_to_cancel">Slide to cancel</string>
+    <string name="tap_on_mic_button_to_record_audio">Tap on mic button to start audio recording</string>
+    <string name="profile_contact">No Contact number</string>
+    <string name="user_name">User Name</string>
+    <string name="errorNotRegisterGroup">This group is not register</string>
+    <string name="approved">Approved</string>
+    <string name="selectMember">Select Member</string>
+    <string name="editGroup">Edit Group</string>
+    <string name="updateGroup">Update Group</string>
+    <string name="update">Update</string>
+    <string name="editAdvertisement">Edit Advertisement</string>
+    <string name="uploadedPic">Uploaded Pic(s)</string>
+    <string name="joined">Joined</string>
+    <string name="inActiveStatus">Your account is waiting for approval by admin. Once approved you will get notification on your mail</string>
+    <string name="tryAgain">Try again</string>
+    <string name="close">Close</string>
+    <string name="expired">Expired</string>
+    <string name="reportAbuse">Report Abuse</string>
+    <string name="rejected">Rejected</string>
+    <string name="enable">Enable</string>
+    <string name="disable">Disable</string>
+    <string name="expiring">Expiring</string>
+    <string name="enabled">Enabled</string>
+    <string name="disabled">Disabled</string>
+    <string name="companyName">Company name*</string>
+    <string name="contactPerson">Contact person*</string>
+    <string name="mobile1">Mobile 1*</string>
+    <string name="mobile2">Mobile 2*</string>
+    <string name="panGSTN">PAN/GSTN*</string>
+    <string name="city">City*</string>
+    <string name="pinCode">PIN code*</string>
+    <string name="state">State*</string>
+    <string name="sellerDetails">Seller Details*</string>
+    <string name="myGroups">My Interest</string>
+    <string name="groupObjective">Group objective</string>
+    <string name="sellerContact">Seller Contact</string>
+    <string name="selectReason">Select Reason</string>
+    <string name="seemsFakeUser">Seems fake user</string>
+    <string name="seemsBroker">Seems broker OR creating \n \t \t \t un-necessary discussion</string>
+    <string name="spammingGroup">Spamming the group</string>
+    <string name="UseAbuseLang">Using abusive language</string>
+    <string name="otherReason">Other reason</string>
+    <string name="reportValidation">Please select reason!</string>
+    <string name="validationSellerDetail">Please enter seller details</string>
+    <string name="minUsers">Min. Users</string>
+    <string name="minUsers2">Min users :</string>
+    <string name="costfortwo">Cost For Two :</string>
+    <string name="emailID">Email ID</string>
+    <string name="contactSeller">Contact Seller</string>
+    <string name="matchingCriteria">interest(s) found for your matching criteria</string>
+    <string name="matchingCriteria2">interest(s) found for this criteria</string>
+    <string name="failedTojoin">Failed to Join</string>
+    <string name="searchGroupNames">Search the group names</string>
+    <string name="locationRemarkGroup">*Please select the location in a way that your city name should come in address.</string>
+    <string name="sellerDetailEg">*Please write the unique property of the seller e.g. we provide bulk discount.</string>
+    <string name="to">To</string>
+    <string name="validationStartFrom">Start Date (From) Required</string>
+    <string name="validationStartTo">Start Date (To) Required</string>
+    <string name="validationEndFrom">End Date (From) Required</string>
+    <string name="validationEndTo">End Date (To) Required</string>
+    <string name="validationPlaceFrom">Order Placed Date (From) Required</string>
+    <string name="validationPlaceTo">Order Placed Date (To) Required</string>
+    <string name="validationPurchasedFrom">Purchased Date (From) Required</string>
+    <string name="validationPurchaedTo">Purchased Date (To) Required</string>
+    <string name="validationCost">Cost range required</string>
+    <string name="validationInvalidCost">Invalid cost range</string>
+    <string name="numberOfMemberGuidingMsg">*Please fill the approx. number of members you are looking for a deal.</string>
+    <string name="dealName">Deal Name</string>
+    <string name="explore">Explore</string>
+    <string name="views">Views</string>
+    <string name="groupsDots">Groups:</string>
+    <string name="endDateDots">End Date:</string>
+    <string name="viewsDots">Views:</string>
+    <string name="accountNumber">Account number</string>
+    <string name="holderName">Account holder name</string>
+    <string name="ifsc">IFSC code</string>
+    <string name="bankName">Bank name</string>
+    <string name="PaytmNum">Paytm number</string>
+    <string name="customAddress">House number / Street number etc</string>
+    <string name="actualPrice">Actual Price</string>
+    <string name="pricefortwo">Cost For Two</string>
+    <string name="offerPrice">Offer Price</string>
+    <string name="generateCouponCode">Generate Coupon Code</string>
+    <string name="internetTitle">Your internet is not working.</string>
+    <string name="internetMessage">Can you retry?</string>
+    <string name="somethingWentWrong">Something went wrong!</string>
+    <string name="couponCode">Coupon Code</string>
+    <string name="myPurchases">My Purchases</string>
+    <string name="buyNow">Buy Now</string>
+    <string name="By">By :</string>
+    <string name="address">Address :</string>
+    <string name="purchase">Purchase</string>
+    <string name="couponCodeGenerated">Generated Coupons :</string>
+    <string name="totalPurchased">Total Purchased :</string>
+    <string name="couponGeneratedBy">Coupon Generated By</string>
+    <string name="purchasedBy">Purchased By</string>
+    <string name="LocationDots">Location :</string>
+    <string name="varify">Verify</string>
+    <string name="validate">Validate</string>
+    <string name="buyerContact">Contact :</string>
+    <string name="Email">Email :</string>
+    <string name="orderPlaced">Order Placed</string>
+    <string name="purchased">Purchased</string>
+    <string name="both">Both</string>
+    <string name="orderedByPurchased">Ordered/Purchased :</string>
+    <string name="referenceId">Reference ID :</string>
+    <string name="sequenceNo">Sequence No :</string>
+    <string name="orderRefNo">Order ref :</string>
+    <string name="sequenceNo2">Sq-No :</string>
+    <string name="purchased2">Purchased :</string>
+    <string name="titleUserDashboard">Explore | Group | Save</string>
+    <string name="contactUs">Contact Us</string>
+    <string name="phoneDots">Phone :</string>
+    <string name="emailDots">Email :</string>
+    <string name="offersNDeals"><![CDATA[Offers & Deals]]></string>
+    <string name="groupName">Group Name</string>
+    <string name="all">All</string>
+    <string name="pending">Pending</string>
+    <string name="Groups">Groups :</string>
+    <string name="Post">Post :</string>
+    <string name="mostLiked">Most Liked</string>
+    <string name="inr">INR</string>
+    <string name="Contact2">Contact</string>
+    <string name="generateCode">Generate Code</string>
+    <string name="offerDetails">Offer Details</string>
+    <string name="rating">Rating :</string>
+    <string name="generatedCoupons">Generated Coupons</string>
+    <string name="rating2">Rating</string>
+    <string name="adsDetail">Ads Detail</string>
+    <string name="createInterest">Create Interest</string>
+    <string name="lookingFor">What you are looking for</string>
+    <string name="byWhenYouPlanToBy">By when you plan to buy</string>
+    <string name="moreDetailsLookingFor">More details on what you look for (Like model/specs etc.)</string>
+    <string name="giveMeOfferes">Give me offers</string>
+    <string name="offers">Offers :</string>
+    <string name="searchInterest">Search Interest</string>
+    <string name="Interest">Interest</string>
+    <string name="myInterest">My Interest</string>
+    <string name="interestDetails">Interest Details</string>
+    <string name="editInterest">Edit Interest</string>
+    <string name="searchOffers">Search Offers</string>
+    <string name="copied">Copied</string>
+    <string name="report1">The seller didn\'t respond</string>
+    <string name="report2">The seller did not deliver what committed</string>
+    <string name="report3">Details are missing in offer</string>
+    <string name="report4">Bad behavior of seller</string>
+    <string name="report5">The product or service is bad</string>
+    <string name="alertPurchase">Are you sure to proceed with purchase?</string>
+    <string name="locationGuideLine">*Select the location where you want this product/service</string>
+    <string name="lookingForGuideLine">*Write one liner e.g. 2 BHK flat OR 1 ton window AC</string>
+    <string name="endDateGuideLine">*Please fill good amount of time (Few months or weeks)</string>
+    <string name="rateSeller">Rate seller</string>
+    <string name="interest">Interested?</string>
+    <string name="confirmAddress">Confirm your delivery address</string>
+    <string name="change">Change</string>
+    <string name="createdSuccessful">Created Successfully</string>
+    <string name="edit">Edit</string>
+    <string name="confirm">Confirm</string>
+    <string name="skip">Skip</string>
+    <string name="orderRef">Order ref :</string>
+    <string name="placedOn">Placed on :</string>
+    <string name="purchasedOn">Purchased on :</string>
+    <string name="Price">Price :</string>
+    <string name="newsFeed">News Feed</string>
+    <string name="orderPlacedDate">Order Placed Date</string>
+    <string name="purchasedDate">Purchased Date</string>
+    <string name="deliveryAddress">Delivery address :</string>
+    <string name="ordered">Ordered :</string>
+    <string name="myOrders">My Orders</string>
+    <string name="orderPurchased">Order Purchased</string>
+    <string name="generated">Generated Coup.</string>
+    <string name="mayBuyToInterest">I may buy so interested</string>
+
+</resources>
