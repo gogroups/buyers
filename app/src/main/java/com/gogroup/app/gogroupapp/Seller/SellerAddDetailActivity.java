@@ -281,7 +281,14 @@ public class SellerAddDetailActivity extends BaseActivity implements CallBackRep
 
         tvDealDetails.setText(selectedAds.getAdvertisementDetails());
         tvMinUsers.setText("Min users. " + selectedAds.getMinUserCount());
-        tvCodeCount.setText(selectedAds.getPendingCodeCount() + " " + getString(R.string.generatedCoupons));
+        int totalCouponGenerated = Integer.parseInt(selectedAds.getPendingCodeCount());
+        int initialCost = Integer.parseInt(selectedAds.getOfferPrice());
+        int discount = 0;
+        if(selectedAds.getCostfortwo() != null && selectedAds.getCostforx() != null) {
+            discount = initialCost - Integer.parseInt(totalCouponGenerated == 1 ? selectedAds.getOfferPrice() : (totalCouponGenerated == 2 ? selectedAds.getCostfortwo() : selectedAds.getCostforx()));
+        }
+
+        tvCodeCount.setText(getString(R.string.cashbackReceived) + ": Rs "+ String.valueOf(discount));
 
         imgLike.setImageDrawable(ContextCompat.getDrawable(this, selectedAds.getIsliked() == 0 ? R.drawable.ic_dislike : R.drawable.ic_like));
         tvLikes.setText(selectedAds.getLikedcount());

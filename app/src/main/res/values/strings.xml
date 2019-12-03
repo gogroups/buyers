@@ -768,6 +768,7 @@
     <string name="offerDetails">Offer Details</string>
     <string name="rating">Rating :</string>
     <string name="generatedCoupons">Generated Coupons</string>
+    <string name="cashbackReceived">Cashback Received</string>
     <string name="rating2">Rating</string>
     <string name="adsDetail">Ads Detail</string>
     <string name="createInterest">Create Interest</string>
