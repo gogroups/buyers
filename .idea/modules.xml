@@ -5,8 +5,6 @@
       <module fileurl="file://$PROJECT_DIR$/Buyer.iml" filepath="$PROJECT_DIR$/Buyer.iml" />
       <module fileurl="file://$PROJECT_DIR$/Buyers.iml" filepath="$PROJECT_DIR$/Buyers.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
-      <module fileurl="file://$PROJECT_DIR$/eventsapp/eventsapp.iml" filepath="$PROJECT_DIR$/eventsapp/eventsapp.iml" />
-      <module fileurl="file://$PROJECT_DIR$/linkedin-sdk/linkedin-sdk.iml" filepath="$PROJECT_DIR$/linkedin-sdk/linkedin-sdk.iml" />
       <module fileurl="file://$PROJECT_DIR$/mobicomkit/mobicomkit.iml" filepath="$PROJECT_DIR$/mobicomkit/mobicomkit.iml" />
       <module fileurl="file://$PROJECT_DIR$/mobicomkitui/mobicomkitui.iml" filepath="$PROJECT_DIR$/mobicomkitui/mobicomkitui.iml" />
       <module fileurl="file://$PROJECT_DIR$/mobicommons/mobicommons.iml" filepath="$PROJECT_DIR$/mobicommons/mobicommons.iml" />
