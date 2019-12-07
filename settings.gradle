@@ -1,2 +1,2 @@
-include ':app', ':linkedin-sdk', ':eventsapp', ':mobicomkitui', ':mobicomkit', ':mobicommons'
+include ':app', ':mobicomkitui', ':mobicomkit', ':mobicommons'
 
